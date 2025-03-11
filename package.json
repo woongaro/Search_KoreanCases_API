@@ -1,0 +1,28 @@
+{
+  "name": "korean-cases-api",
+  "version": "1.0.0",
+  "description": "법제처 사이트에서 제공하는 판례 정보를 검색하고 조회할 수 있는 API",
+  "main": "index.js",
+  "scripts": {
+    "start": "uvicorn main:app --reload",
+    "dev": "uvicorn main:app --reload --host 0.0.0.0 --port 8000",
+    "test": "pytest",
+    "lint": "flake8 .",
+    "format": "black ."
+  },
+  "keywords": [
+    "법제처",
+    "판례",
+    "API",
+    "FastAPI",
+    "Python"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {},
+  "engines": {
+    "node": ">=16.0.0"
+  },
+  "private": true
+} 
